@@ -1,7 +1,7 @@
 /* mobile and tablet */
 @media (max-width:1023px){
     :root{
-        --header-height:68px;
+        --header-height:50px;
         --navbar-height:0px;
     }
     .hide-on-tablet-mobile{
@@ -34,6 +34,11 @@
     .header__sort-bar{
         display:flex;
     }
+
+    .header__search-history{
+        z-index: 20;
+    }
+
     .mobile-category{
         display:block;
     }
@@ -135,6 +140,20 @@
         min-width:32px;
         font-size:1.6rem;
 
+    }
+
+    .footer__heading{
+        text-align: center;
+    }
+    .footer__item{
+        text-align: center;
+    }
+    .footer__dowload{
+        justify-content: center;
+    }
+    .footer__dowload-app-link{
+        display:block;
+        padding:8px 0;
     }
 
     .footer__mobile{
